@@ -1,0 +1,7 @@
+
+
+
+chown -R tlc_user:tlc_user /tlc-api 
+
+
+https://askubuntu.com/questions/1406395/mysql-root-password-setup-error
