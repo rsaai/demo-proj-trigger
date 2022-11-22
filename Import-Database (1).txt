@@ -1,0 +1,62 @@
+create database bigs_fresh;
+GRANT ALL ON bigs_fresh.* TO 'bigs'@'localhost';
+
+mysql -u bigs -p bigs_fresh < /home/ubuntu/bigs_fresh.sql
+
+create database latestbigs29;
+
+GRANT ALL ON latestbigs29.* TO 'bigs'@'localhost';
+
+mysql -u bigs -p latestbigs29 < /home/ubuntu/latestbigs29.sql
+
+create database latestbigs2903;
+
+GRANT ALL ON latestbigs2903.* TO 'bigs'@'localhost';
+
+mysql -u bigs -p latestbigs2903 < /home/ubuntu/latestbigs2903.sql
+
+create database big0804;
+
+GRANT ALL ON big0804.* TO 'bigs'@'localhost';
+
+mysql -u bigs -p big0804 < /home/ubuntu/big0804.sql
+
+create database big1304;
+
+GRANT ALL ON big1304.* TO 'bigs'@'localhost';
+
+mysql -u bigs -p big1304 < /home/ubuntu/big1304.sql
+
+create database way2eat;
+
+GRANT ALL ON way2eat.* TO 'bigs'@'localhost';
+
+mysql -u bigs -p way2eat < /home/ubuntu/way2eat.sql
+
+create database bigs0405;
+
+GRANT ALL ON bigs0405.* TO 'bigs'@'localhost';
+
+mysql -u bigs -p bigs0405 < /home/ubuntu/bigs0405.sql
+
+create database big2405;
+
+GRANT ALL ON big2405.* TO 'bigs'@'localhost';
+
+mysql -u bigs -p big2405 < /home/ubuntu/big2405.sql
+
+create database bigs2408;
+
+GRANT ALL ON bigs2408.* TO 'bigs'@'localhost';
+
+mysql -u bigs -p bigs2408 < /home/ubuntu/bigs2408.sql
+
+create database bigs2608;
+
+GRANT ALL ON bigs2608.* TO 'bigs'@'localhost';
+
+mysql -u bigs -p bigs2608 < /home/ubuntu/bigs2608.sql
+
+
+
+
