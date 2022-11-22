@@ -1,0 +1,21 @@
+27  sudo apt update && sudo apt -y upgrade
+   28  sudo apt install lsb-release ca-certificates apt-transport-https software-properties-common -y
+   29  sudo add-apt-repository ppa:ondrej/php
+   30  sudo apt update
+   31  sudo apt install php8.1
+   32  php --version
+   33  sudo apt-get install php8.1-mysql php8.1-curl php8.1-cgi php8.1-xsl php8.1-gd php8.1-zip php8.1-fpm php8.1-common php8.1-mbstring php8.1-xmlrpc -y
+   34  systemctl status php*-fpm.service
+   35  df -h
+   
+   41  sudo apt install nginx
+   42  sudo apt install mysql-server
+   43  sudo mysql_secure_installation
+   44  
+   45  
+   46 
+   47  nginx --version
+   48  nginx --"version"
+   49  service apache2 stop
+   50  
+   5
