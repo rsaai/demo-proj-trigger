@@ -1,0 +1,13 @@
+public IP address of TLC : 34.205.191.118
+
+Deployment User : tlc_user
+
+password : Appstek@2022
+
+https://github.com/Appstekcorp-com/tlc-api.git [git hub repo code ]
+
+
+hkoilakuntla [github username]
+
+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 [github password]
+
